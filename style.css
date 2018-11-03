@@ -1,0 +1,176 @@
+/* .main{ 
+     display:flex 
+}
+.nav{
+    background-color: silver;
+    display: flex;
+}
+.links-container{
+    font-family: 'Arial';
+    display: flex;
+    flex: flex-end;
+    align-items: center;
+    margin-left: 40%;
+}
+.links-container a {
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+.logo{
+    height: 5em;
+    padding: 10px;
+    padding-left: 20px;
+}
+.header{
+    display:flex;
+    justify-content: flex-end;
+    background-color: red;
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.traveling{
+    width:630px;
+    height:300px;
+}
+.article{
+    display:flex;
+    height:300px;
+    margin-left: 100px;
+    margin-right:100px;
+
+
+}
+.article1{
+    display:flex;
+     flex-flow: wrap; 
+     flex-direction: column; 
+     flex-wrap:wrap; 
+    background-color:pink;
+    width:700px;
+    height:300px;
+    padding: 10px;
+}
+.article1 p{ 
+    display:flex;
+    flex-flow: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.article1 img{
+    display:flex; 
+    flex-direction:column;
+    width:100px;
+    
+}
+.article2{
+    background-color: blueviolet;
+    width:700px;
+    height:300px;
+    padding: 10px;
+}
+.article2 img{
+    width:100px;
+    
+}
+.article3{
+    background-color:yellow;
+    width:700px;
+    height:300px;
+    padding: 10px;
+}
+.article3 img{
+    width:100px;
+    
+}
+.footer{
+    display:flex;
+    background-color:black;
+    color: white;
+    padding-left:50px;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+.gif{
+    width:50px;
+ } */
+
+body {
+    background-color: whitesmoke;
+}
+
+.nav {
+    display: flex;
+    background-color: grey;
+}
+
+.links-container {
+    display: flex; /* puts into a row */
+    align-items: center; /* moves up and down */
+    justify-content: flex-end; /*moves left and right*/
+    margin-left: auto;
+}
+.links-container a {
+    margin: 1em; /*em is about the size of 12pt font */
+}
+
+.nav img {
+    height: 5em;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.traveling {
+    width: 630px;
+}
+
+.main {
+    display: flex;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+
+.articleMeat {
+    background-color: slategray;
+    color: white;
+    margin-bottom: 10%;
+     display: flex;
+     flex-wrap: wrap;
+
+}
+
+.articlePara {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tips {
+    width: 80px;
+    height: 80px;
+
+}
+
+.footer {
+    background-color: grey;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.gif {
+    width: 3em;
+}
